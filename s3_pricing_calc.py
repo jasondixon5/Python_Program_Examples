@@ -14,7 +14,7 @@ def s3Price_East_Standard(usage):
     
     e.g., if Tier1_usage = 1000 and Tier2_usage = 49000, customer with 3000GB would be charged:
     Tier1_price per first 1000GB and Tier2_price for each remaining GB
-    e.g., if Tier2_usage = 450000, customer with 55000GB would be charged:
+    e.g., if Tier3_usage = 450000, customer with 55000GB would be charged:
     Tier1_price per first 1000GB + Tier2_price for next 49000GB + Tier3_price for each remaining GB
     """
     Tier1_usage = 1000
